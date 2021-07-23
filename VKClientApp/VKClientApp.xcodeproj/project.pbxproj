@@ -9,12 +9,11 @@
 /* Begin PBXBuildFile section */
 		FF9E08DC26A80F0B008BB4C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E08DB26A80F0B008BB4C0 /* AppDelegate.swift */; };
 		FF9E08DE26A80F0B008BB4C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E08DD26A80F0B008BB4C0 /* SceneDelegate.swift */; };
-		FF9E08E026A80F0B008BB4C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E08DF26A80F0B008BB4C0 /* ViewController.swift */; };
 		FF9E08E326A80F0B008BB4C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9E08E126A80F0B008BB4C0 /* Main.storyboard */; };
 		FF9E08E526A80F0B008BB4C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9E08E426A80F0B008BB4C0 /* Assets.xcassets */; };
-		FF9E08E826A80F0B008BB4C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9E08E626A80F0B008BB4C0 /* LaunchScreen.storyboard */; };
 		FF9E08F326A80F0B008BB4C0 /* VKClientAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E08F226A80F0B008BB4C0 /* VKClientAppTests.swift */; };
 		FF9E08FE26A80F0B008BB4C0 /* VKClientAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E08FD26A80F0B008BB4C0 /* VKClientAppUITests.swift */; };
+		FF9E090C26A8198C008BB4C0 /* LoginFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E090B26A8198C008BB4C0 /* LoginFormController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +37,8 @@
 		FF9E08D826A80F0B008BB4C0 /* VKClientApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKClientApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9E08DB26A80F0B008BB4C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF9E08DD26A80F0B008BB4C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF9E08DF26A80F0B008BB4C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF9E08E226A80F0B008BB4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF9E08E426A80F0B008BB4C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FF9E08E726A80F0B008BB4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF9E08E926A80F0B008BB4C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF9E08EE26A80F0B008BB4C0 /* VKClientAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKClientAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9E08F226A80F0B008BB4C0 /* VKClientAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKClientAppTests.swift; sourceTree = "<group>"; };
@@ -49,6 +46,7 @@
 		FF9E08F926A80F0B008BB4C0 /* VKClientAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKClientAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9E08FD26A80F0B008BB4C0 /* VKClientAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKClientAppUITests.swift; sourceTree = "<group>"; };
 		FF9E08FF26A80F0B008BB4C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9E090B26A8198C008BB4C0 /* LoginFormController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +99,9 @@
 			children = (
 				FF9E08DB26A80F0B008BB4C0 /* AppDelegate.swift */,
 				FF9E08DD26A80F0B008BB4C0 /* SceneDelegate.swift */,
-				FF9E08DF26A80F0B008BB4C0 /* ViewController.swift */,
+				FF9E090B26A8198C008BB4C0 /* LoginFormController.swift */,
 				FF9E08E126A80F0B008BB4C0 /* Main.storyboard */,
 				FF9E08E426A80F0B008BB4C0 /* Assets.xcassets */,
-				FF9E08E626A80F0B008BB4C0 /* LaunchScreen.storyboard */,
 				FF9E08E926A80F0B008BB4C0 /* Info.plist */,
 			);
 			path = VKClientApp;
@@ -231,7 +228,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF9E08E826A80F0B008BB4C0 /* LaunchScreen.storyboard in Resources */,
 				FF9E08E526A80F0B008BB4C0 /* Assets.xcassets in Resources */,
 				FF9E08E326A80F0B008BB4C0 /* Main.storyboard in Resources */,
 			);
@@ -258,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF9E08E026A80F0B008BB4C0 /* ViewController.swift in Sources */,
+				FF9E090C26A8198C008BB4C0 /* LoginFormController.swift in Sources */,
 				FF9E08DC26A80F0B008BB4C0 /* AppDelegate.swift in Sources */,
 				FF9E08DE26A80F0B008BB4C0 /* SceneDelegate.swift in Sources */,
 			);
@@ -302,14 +298,6 @@
 				FF9E08E226A80F0B008BB4C0 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FF9E08E626A80F0B008BB4C0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF9E08E726A80F0B008BB4C0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
