@@ -14,6 +14,18 @@
 		FF9E08F326A80F0B008BB4C0 /* VKClientAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E08F226A80F0B008BB4C0 /* VKClientAppTests.swift */; };
 		FF9E08FE26A80F0B008BB4C0 /* VKClientAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E08FD26A80F0B008BB4C0 /* VKClientAppUITests.swift */; };
 		FF9E090C26A8198C008BB4C0 /* LoginFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E090B26A8198C008BB4C0 /* LoginFormController.swift */; };
+		FFB3C3CC26B29D2D00D7A6DF /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3C3CB26B29D2D00D7A6DF /* FriendsTableViewController.swift */; };
+		FFB3C3CE26B2A44C00D7A6DF /* FriendsTableViewLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3C3CD26B2A44C00D7A6DF /* FriendsTableViewLine.swift */; };
+		FFB3C3D026B2A95700D7A6DF /* FriendsInfoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3C3CF26B2A95700D7A6DF /* FriendsInfoList.swift */; };
+		FFB3C3D226B2D59100D7A6DF /* AddFriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3C3D126B2D59100D7A6DF /* AddFriendsTableViewController.swift */; };
+		FFB3C3D626B32F6000D7A6DF /* FotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3C3D526B32F6000D7A6DF /* FotoCollectionViewController.swift */; };
+		FFB3C3D826B3E92D00D7A6DF /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3C3D726B3E92D00D7A6DF /* PhotoInfo.swift */; };
+		FFB3C3DA26B4269500D7A6DF /* PhotoClassCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3C3D926B4269500D7A6DF /* PhotoClassCollectionViewCell.swift */; };
+		FFB3C3DC26B44D5800D7A6DF /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3C3DB26B44D5800D7A6DF /* PreviewViewController.swift */; };
+		FFB3C3DF26B560F500D7A6DF /* GroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3C3DE26B560F500D7A6DF /* GroupTableViewController.swift */; };
+		FFB3C3E126B561D900D7A6DF /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3C3E026B561D900D7A6DF /* Group.swift */; };
+		FFB3C3E426B5638100D7A6DF /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3C3E326B5638100D7A6DF /* GroupTableViewCell.swift */; };
+		FFB3C3E926B5682A00D7A6DF /* AddGroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3C3E826B5682A00D7A6DF /* AddGroupTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		FF9E08FD26A80F0B008BB4C0 /* VKClientAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKClientAppUITests.swift; sourceTree = "<group>"; };
 		FF9E08FF26A80F0B008BB4C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF9E090B26A8198C008BB4C0 /* LoginFormController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormController.swift; sourceTree = "<group>"; };
+		FFB3C3CB26B29D2D00D7A6DF /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		FFB3C3CD26B2A44C00D7A6DF /* FriendsTableViewLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewLine.swift; sourceTree = "<group>"; };
+		FFB3C3CF26B2A95700D7A6DF /* FriendsInfoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsInfoList.swift; sourceTree = "<group>"; };
+		FFB3C3D126B2D59100D7A6DF /* AddFriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendsTableViewController.swift; sourceTree = "<group>"; };
+		FFB3C3D526B32F6000D7A6DF /* FotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoCollectionViewController.swift; sourceTree = "<group>"; };
+		FFB3C3D726B3E92D00D7A6DF /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
+		FFB3C3D926B4269500D7A6DF /* PhotoClassCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoClassCollectionViewCell.swift; sourceTree = "<group>"; };
+		FFB3C3DB26B44D5800D7A6DF /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		FFB3C3DE26B560F500D7A6DF /* GroupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewController.swift; sourceTree = "<group>"; };
+		FFB3C3E026B561D900D7A6DF /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		FFB3C3E326B5638100D7A6DF /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		FFB3C3E826B5682A00D7A6DF /* AddGroupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +123,8 @@
 			children = (
 				FF9E08DB26A80F0B008BB4C0 /* AppDelegate.swift */,
 				FF9E08DD26A80F0B008BB4C0 /* SceneDelegate.swift */,
-				FF9E090B26A8198C008BB4C0 /* LoginFormController.swift */,
+				FFB3C3C226B29A7900D7A6DF /* Models */,
+				FFB3C3C426B29A9600D7A6DF /* Scenes */,
 				FF9E08E126A80F0B008BB4C0 /* Main.storyboard */,
 				FF9E08E426A80F0B008BB4C0 /* Assets.xcassets */,
 				FF9E08E926A80F0B008BB4C0 /* Info.plist */,
@@ -123,6 +148,105 @@
 				FF9E08FF26A80F0B008BB4C0 /* Info.plist */,
 			);
 			path = VKClientAppUITests;
+			sourceTree = "<group>";
+		};
+		FFB3C3C226B29A7900D7A6DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FFB3C3CF26B2A95700D7A6DF /* FriendsInfoList.swift */,
+				FFB3C3D726B3E92D00D7A6DF /* PhotoInfo.swift */,
+				FFB3C3E026B561D900D7A6DF /* Group.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FFB3C3C426B29A9600D7A6DF /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FFB3C3E526B567B800D7A6DF /* AddGroup */,
+				FFB3C3DD26B560A100D7A6DF /* GroupTableView */,
+				FFB3C3C826B29BA800D7A6DF /* PhotoViewBoard */,
+				FFB3C3C726B29B4000D7A6DF /* AddFriendSheetView */,
+				FFB3C3C626B29AD800D7A6DF /* FriendsTableView */,
+				FFB3C3C526B29AAD00D7A6DF /* LoginForm */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FFB3C3C526B29AAD00D7A6DF /* LoginForm */ = {
+			isa = PBXGroup;
+			children = (
+				FF9E090B26A8198C008BB4C0 /* LoginFormController.swift */,
+			);
+			path = LoginForm;
+			sourceTree = "<group>";
+		};
+		FFB3C3C626B29AD800D7A6DF /* FriendsTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FFB3C3C926B29BFC00D7A6DF /* Line */,
+				FFB3C3CB26B29D2D00D7A6DF /* FriendsTableViewController.swift */,
+			);
+			path = FriendsTableView;
+			sourceTree = "<group>";
+		};
+		FFB3C3C726B29B4000D7A6DF /* AddFriendSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				FFB3C3D126B2D59100D7A6DF /* AddFriendsTableViewController.swift */,
+			);
+			path = AddFriendSheetView;
+			sourceTree = "<group>";
+		};
+		FFB3C3C826B29BA800D7A6DF /* PhotoViewBoard */ = {
+			isa = PBXGroup;
+			children = (
+				FFB3C3CA26B29C5000D7A6DF /* Cell */,
+				FFB3C3D526B32F6000D7A6DF /* FotoCollectionViewController.swift */,
+				FFB3C3DB26B44D5800D7A6DF /* PreviewViewController.swift */,
+			);
+			path = PhotoViewBoard;
+			sourceTree = "<group>";
+		};
+		FFB3C3C926B29BFC00D7A6DF /* Line */ = {
+			isa = PBXGroup;
+			children = (
+				FFB3C3CD26B2A44C00D7A6DF /* FriendsTableViewLine.swift */,
+			);
+			path = Line;
+			sourceTree = "<group>";
+		};
+		FFB3C3CA26B29C5000D7A6DF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FFB3C3D926B4269500D7A6DF /* PhotoClassCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FFB3C3DD26B560A100D7A6DF /* GroupTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FFB3C3E226B5635C00D7A6DF /* Line */,
+				FFB3C3DE26B560F500D7A6DF /* GroupTableViewController.swift */,
+			);
+			path = GroupTableView;
+			sourceTree = "<group>";
+		};
+		FFB3C3E226B5635C00D7A6DF /* Line */ = {
+			isa = PBXGroup;
+			children = (
+				FFB3C3E326B5638100D7A6DF /* GroupTableViewCell.swift */,
+			);
+			path = Line;
+			sourceTree = "<group>";
+		};
+		FFB3C3E526B567B800D7A6DF /* AddGroup */ = {
+			isa = PBXGroup;
+			children = (
+				FFB3C3E826B5682A00D7A6DF /* AddGroupTableViewController.swift */,
+			);
+			path = AddGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +379,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF9E090C26A8198C008BB4C0 /* LoginFormController.swift in Sources */,
+				FFB3C3D626B32F6000D7A6DF /* FotoCollectionViewController.swift in Sources */,
+				FFB3C3E926B5682A00D7A6DF /* AddGroupTableViewController.swift in Sources */,
 				FF9E08DC26A80F0B008BB4C0 /* AppDelegate.swift in Sources */,
+				FFB3C3D226B2D59100D7A6DF /* AddFriendsTableViewController.swift in Sources */,
+				FFB3C3DC26B44D5800D7A6DF /* PreviewViewController.swift in Sources */,
+				FFB3C3DF26B560F500D7A6DF /* GroupTableViewController.swift in Sources */,
+				FFB3C3E126B561D900D7A6DF /* Group.swift in Sources */,
+				FFB3C3E426B5638100D7A6DF /* GroupTableViewCell.swift in Sources */,
+				FFB3C3CC26B29D2D00D7A6DF /* FriendsTableViewController.swift in Sources */,
+				FFB3C3D026B2A95700D7A6DF /* FriendsInfoList.swift in Sources */,
+				FFB3C3CE26B2A44C00D7A6DF /* FriendsTableViewLine.swift in Sources */,
+				FFB3C3DA26B4269500D7A6DF /* PhotoClassCollectionViewCell.swift in Sources */,
 				FF9E08DE26A80F0B008BB4C0 /* SceneDelegate.swift in Sources */,
+				FFB3C3D826B3E92D00D7A6DF /* PhotoInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
